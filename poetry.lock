@@ -13,20 +13,6 @@ files = [
 ]
 
 [[package]]
-name = "asyncio"
-version = "3.4.3"
-description = "reference implementation of PEP 3156"
-category = "main"
-optional = false
-python-versions = "*"
-files = [
-    {file = "asyncio-3.4.3-cp33-none-win32.whl", hash = "sha256:b62c9157d36187eca799c378e572c969f0da87cd5fc42ca372d92cdb06e7e1de"},
-    {file = "asyncio-3.4.3-cp33-none-win_amd64.whl", hash = "sha256:c46a87b48213d7464f22d9a497b9eef8c1928b68320a2fa94240f969f6fec08c"},
-    {file = "asyncio-3.4.3-py3-none-any.whl", hash = "sha256:c4d18b22701821de07bd6aea8b53d21449ec0ec5680645e5317062ea21817d2d"},
-    {file = "asyncio-3.4.3.tar.gz", hash = "sha256:83360ff8bc97980e4ff25c964c7bd3923d333d177aa4f7fb736b019f26c7cb41"},
-]
-
-[[package]]
 name = "attrs"
 version = "22.2.0"
 description = "Classes Without Boilerplate"
@@ -63,14 +49,14 @@ tomli = {version = "*", markers = "python_version < \"3.11\""}
 
 [[package]]
 name = "beautifulsoup4"
-version = "4.11.2"
+version = "4.12.0"
 description = "Screen-scraping library"
 category = "main"
 optional = false
 python-versions = ">=3.6.0"
 files = [
-    {file = "beautifulsoup4-4.11.2-py3-none-any.whl", hash = "sha256:0e79446b10b3ecb499c1556f7e228a53e64a2bfcebd455f370d8927cb5b59e39"},
-    {file = "beautifulsoup4-4.11.2.tar.gz", hash = "sha256:bc4bdda6717de5a2987436fb8d72f45dc90dd856bdfd512a1314ce90349a0106"},
+    {file = "beautifulsoup4-4.12.0-py3-none-any.whl", hash = "sha256:2130a5ad7f513200fae61a17abb5e338ca980fa28c439c0571014bc0217e9591"},
+    {file = "beautifulsoup4-4.12.0.tar.gz", hash = "sha256:c5fceeaec29d09c84970e47c65f2f0efe57872f7cff494c9691a26ec0ff13234"},
 ]
 
 [package.dependencies]
@@ -556,14 +542,14 @@ use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
 name = "selenium"
-version = "4.8.2"
+version = "4.8.3"
 description = ""
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "selenium-4.8.2-py3-none-any.whl", hash = "sha256:bd04eb41395605d9b2b65fe587f3fed21431da75512985c52772529e5e210c60"},
-    {file = "selenium-4.8.2.tar.gz", hash = "sha256:c48372905bffcc3b24bd55ab4683a07ee5e1f30fe918c59558ea5ee44cedf6c3"},
+    {file = "selenium-4.8.3-py3-none-any.whl", hash = "sha256:28430ac54a54fa59ad1f5392a1b89b169fe3ab2c2ccd1a9a10b6fe74f36cd6da"},
+    {file = "selenium-4.8.3.tar.gz", hash = "sha256:61cda3a304f82637162bc155cae7bf88fdb04c115fa2cb1c1c2e1358fcd19a9f"},
 ]
 
 [package.dependencies]
@@ -694,22 +680,7 @@ files = [
 [package.dependencies]
 h11 = ">=0.9.0,<1"
 
-[[package]]
-name = "zapimoveis-scraper"
-version = "0.4.0"
-description = "zapimoveis-scraper is a Python package that works as a crawler and scraper using beautifulsoup4 to get data from zap imoveis"
-category = "main"
-optional = false
-python-versions = "*"
-files = [
-    {file = "zapimoveis_scraper-0.4.0-py2.py3-none-any.whl", hash = "sha256:beac3d3b71990e05e489eb056c1e4f6053210930cf93acb9c657201807a43fda"},
-    {file = "zapimoveis_scraper-0.4.0.tar.gz", hash = "sha256:f0c97b11d2ad96a95026f30da2162501f7ddb0a9365dfb1eecd35b56db2f436a"},
-]
-
-[package.dependencies]
-beautifulsoup4 = "*"
-
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "f3072cda3b75bcc9ced734adc599cc76d00f071cca060eb0a24582b18ebba2f6"
+content-hash = "1dbf3472112402df437db77957984b16109406d2c8b3082500b89d2d48230526"

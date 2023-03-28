@@ -1,17 +1,15 @@
 [tool.poetry]
-name = "realstatespider"
-version = "0.1.0"
-description = "web crawling and data analysis tool that extracts real estate data from the web and uses dashboards and machine learning to provide insights and predictions."
-authors = ["Guilherme Vieira <guilherme.vieira@thoughtworks.com>"]
+name = "real-state-spider"
+version = "0.0.0"
+description = "A real estate scraper/crawler for Brazilian real estate that extracts data from various real estate websites in Brazil and then store this data in a structured format (e.g CSV) for analysis or research purposes."
+authors = ["José Guilherme <jguilhermemv@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-zapimoveis-scraper = "^0.4.0"
 bs4 = "^0.0.1"
 requests = "^2.28.2"
 selenium = "^4.8.2"
-asyncio = "^3.4.3"
 logging = "^0.4.9.6"
 
 
